@@ -78,4 +78,16 @@
     width: 80%;
     height: 320px;
   }
+
+  .app__aboutus-content_knife img {
+    height: 703px;
+  }
+
+  .app__aboutus-content_about,
+  .app__aboutus-content_history {
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
 }
