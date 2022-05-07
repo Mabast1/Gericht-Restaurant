@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './Intro.css';
+import { bsFillPlayFill, bsPauseFill } from "react-icons/bs";
+import { meal } from "../../constants";
+import "./Intro.css";
 
-const Intro = () => (
-  <div>
-    Intro
-  </div>
-);
+const Intro = () => <div className=""></div>;
 
 export default Intro;
