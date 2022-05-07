@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { bsFillPlayFill, bsPauseFill } from "react-icons/bs";
+import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import { meal } from "../../constants";
 import "./Intro.css";
 
@@ -32,9 +32,9 @@ const Intro = () => {
           onClick={handleVideo}
         >
           {playVideo ? (
-            <bsPauseFill color="#fff" fontSize={30} />
+            <BsPauseFill color="#fff" fontSize={30} />
           ) : (
-            <bsFillPlayFill color="#fff" fontSize={30} />
+            <BsFillPlayFill color="#fff" fontSize={30} />
           )}
         </div>
       </div>
