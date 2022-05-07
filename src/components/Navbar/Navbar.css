@@ -5,6 +5,10 @@
   align-items: center;
   background: var(--color-dark);
   padding: 1rem 2rem;
+
+  /* stickey navbar */
+  position: fixed;
+  z-index: 99;
 }
 
 .app__navbar-logo {
