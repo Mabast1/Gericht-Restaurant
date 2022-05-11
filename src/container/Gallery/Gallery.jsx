@@ -50,7 +50,14 @@ const Gallery = () => {
               key={`gallery_image-${index + 1}`}
             >
               <img src={image} alt="gallery" />
-              <BsInstagram className="gallery__image-icon" />
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                className="gallery__image-icon"
+                rel="noreferrer"
+              >
+                <BsInstagram />
+              </a>
             </div>
           ))}
         </div>
